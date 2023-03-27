@@ -1,0 +1,94 @@
+// This is a comment in JavaScript
+// Declare a variable with the var keyword
+var myVariable = "Hello, World!";
+// Display the value of the variable in the console
+console.log(myVariable);
+// Declare a function with the function keyword
+function sayHello() {
+console.log("Hello, World!");
+}
+// Call the function
+sayHello();
+// Declare a function with a parameter
+function sayName(name) {
+console.log("My name is " + name);
+}
+// Call the function with an argument
+sayName("John");
+// Declare an object with curly braces {}
+var person = {
+firstName: "John",
+lastName: "Doe",
+age: 30
+};
+// Access the properties of the object with dot notation
+console.log(person.firstName);
+// Declare an array with square brackets []
+var myArray = ["apple", "banana", "orange"];
+// Access the elements of the array with indexing
+console.log(myArray[0]);
+// Use a for loop to iterate over an array
+for (var i = 0; i < myArray.length; i++) {
+console.log(myArray[i]);
+}
+// Declare a conditional statement with the if keyword
+var x = 10;
+if (x > 5) {
+console.log("x is greater than 5");
+}
+// Declare an else statement to handle the opposite condition
+if (x > 15) {
+console.log("x is greater than 15");
+} else {
+console.log("x is less than or equal to 15");
+}
+// Declare a switch statement to handle multiple conditions
+var dayOfWeek = "Monday";
+switch (dayOfWeek) {
+case "Monday":
+arduino
+Copy code
+console.log("Today is Monday");
+kotlin
+Copy code
+break;
+case "Tuesday":
+arduino
+Copy code
+console.log("Today is Tuesday");
+kotlin
+Copy code
+break;
+default:
+arduino
+Copy code
+console.log("Today is not Monday or Tuesday");
+}
+// Declare a while loop to execute code while a condition is true
+var i = 0;
+while (i < 5) {
+console.log(i);
+i++;
+}
+// Declare a do-while loop to execute code at least once
+var j = 0;
+do {
+console.log(j);
+j++;
+} while (j < 5);
+// Declare a function that returns a value
+function addNumbers(a, b) {
+return a + b;
+}
+// Call the function and store the result in a variable
+var sum = addNumbers(3, 5);
+console.log(sum);
+// Declare a function expression and assign it to a variable
+var multiplyNumbers = function(a, b) {
+return a * b;
+};
+// Call the function expression and store the result in a variable
+var product = multiplyNumbers(4, 6);
+console.log(product);
+// Use the setTimeout function to delay the execution of code
+setTimeout
